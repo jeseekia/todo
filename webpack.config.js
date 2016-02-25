@@ -13,13 +13,24 @@ module.exports = {
     path: PATHS.build,
     filename: 'bundle.js'
   },
+  var common = {
+  entry: PATHS.app,
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   module: {
     loaders: [
       {
         test: /\.css$/,
         loaders: ['style', 'css'],
         include: PATHS.app
+      },
+      {
+        test: /\.jsx?$/,
+        loaders: ['babel'],
+        include: PATHS.app
       }
+
     ]
   },
   devServer: {
