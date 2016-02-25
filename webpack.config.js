@@ -15,8 +15,6 @@ module.exports = {
     path: PATHS.build,
     filename: 'bundle.js'
   },
-  var common = {
-  entry: PATHS.app,
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
