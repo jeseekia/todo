@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jeseekia/todo#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^2.9.0",
     "webpack": "^1.12.11"
   }
 }
