@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Todo list application with React, Flux (Alt.js) and Stamplay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeseekia/todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeseekia/todo/issues"
+  },
+  "homepage": "https://github.com/jeseekia/todo#readme",
+  "devDependencies": {
+    "webpack": "^1.12.11"
+  }
+}
